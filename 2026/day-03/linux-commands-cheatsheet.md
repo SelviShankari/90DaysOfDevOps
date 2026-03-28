@@ -1,4 +1,4 @@
-1.) ps :- This command lists out all the processes. It is like a photo that is clocked. I shows the processes.
+1.) ps :- This command lists out all the processes. It is like a photo that is clicked. It shows the processes.
 
 2.)top :- This comamnd lists out all the running process but in cctv mode. Like i shows the cpu usage , memory usage in real-time.
 
@@ -18,7 +18,7 @@
 
 10.)traceroute :- This command show the number of hops it takes to reach the target.
 
-11.) curl ifconfig.me :- Shows the public Ip of your server/device
+11.)curl ifconfig.me :- Shows the public Ip of your server/device
 
 12.)dig :- Stands for domain information goopher. Used to get information about the domain. Returns the A record of any website.
 

@@ -7,4 +7,4 @@
 5.)"echo "append redirection" >>notes.txt" :- This command appends the line to the existing file.
 6.)"head notes.txt" :- displays the first 10 lines from the file
 7.)"tail notes.txt" :- displays the last 10 lines from the file 
-8.)"echo "checking how tee works" | tee -a notes.txt ":- This command appends the new line to the text file and displays only the line that is getting appended.
+8.)"echo "checking how tee works" | tee -a notes.txt ":- This command appends the new line to the text file and displays only the line that is getting appended

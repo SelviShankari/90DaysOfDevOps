@@ -35,11 +35,10 @@
     systemctl :- system controller is like steering wheel.
 
 --> Process States :- 
-     There are different process states that at=re used to identify what a process is actually doing currently.
+     There are different process states that are used to identify what a process is actually doing currently.
      Different process states are :- 
      Running , Sleeping , Zombie , Idle etc etc. 
      The roles are defined by the actual word meanings.
-
 
 
 Commands that gets used on daily basis:
@@ -50,7 +49,7 @@ Commands that gets used on daily basis:
 
 3.) sudo -i :- To get all the sudo privileges
 
-4.)apt install <package-name> :- This command is used ot install any package into our linux system
+4.)apt install <package-name> :- This command is used to install any package into our linux system
 
 5.) chmod :- This command is used to change the mode and play with the permission for any file or folder.
 

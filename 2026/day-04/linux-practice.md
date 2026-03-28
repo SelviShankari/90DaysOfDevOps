@@ -19,4 +19,4 @@ ps aux | grep nginx
 ---------------------------------Logs check-------------------------------------------------------
 
 5.)Checking the system logs for nginx
-  journalct -u nginx | tail -5 --> this command is used to view system and service logs on systems that use systemd. It shows what happended on the system and what went wrong.
+  journalctl -u nginx | tail -5 --> this command is used to view system and service logs on systems that use systemd. It shows what happended on the system and what went wrong.
