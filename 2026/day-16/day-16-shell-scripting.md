@@ -50,6 +50,50 @@ else
 fi
 *****CODE ENDS HERE*****
 
+-----This is how we give multi-line comment in shell scripting
+#!/bin/bash
+#This script can input multiple users
+#
+<<comment
+This is a script that cn create multiple inputs and create multiple users so use wisely
+comment
+
+---Understanding for loop in shell scripting
+
+*****CODE STARTS HERE*****
+#!/bin/bash
+#This script can input multiple users
+#
+<<comment
+This is a script that can take multiple inouts and create multiple user so use the command wisely
+comment
+
+for i in {1..5}
+do
+        read -p "Enter the username" user_name
+
+        sudo useradd -m $user_name
+        echo "User $user_name added successfully"
+done
+*****CODE ENDS HERE*****
+
+
+----- Printing reverse numbers usig shell scripting
+
+*****CODE STARTS HERE*****
+for (( num=10 ; num >1 ; num--))
+do
+        echo $num
+done
+*****CODE ENDS HERE*****
+
+------Printing the files present in the current directory
+*****CODE STARTS HERE*****
+for file in ./*
+do
+        echo $file
+done
+*****CODE ENDS HERE*****
 
 
 
